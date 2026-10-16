@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HueNotes Support</title>
+<style>
+  :root { --bg: #fffdf5; --text: #222; --muted: #666; --accent: #b8860b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1c1b18; --text: #eee; --muted: #aaa; --accent: #f0c040; } }
+  body { background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin-bottom: 4px; } h2 { font-size: 20px; margin-top: 32px; }
+  .muted { color: var(--muted); } a { color: var(--accent); }
+</style>
+</head>
+<body>
+<h1>HueNotes Support</h1>
+<p>Questions, bugs or ideas: <a href="mailto:orca.mystique@gmail.com">orca.mystique@gmail.com</a>.
+Please include your iPhone model and iOS version. Never send your master password or backup password.</p>
+
+<h2>Moving notes from ColorNote (Android)</h2>
+<ol>
+  <li>In ColorNote: Settings → Backup → <strong>Backup notes</strong>, then tap the backup → <strong>Send</strong> and get the
+    file to your iPhone (email, Google Drive, OneDrive…).</li>
+  <li>In HueNotes: More → <strong>Import ColorNote backup</strong> → choose the file.</li>
+  <li>Enter your ColorNote master password (<code>0000</code> if you never set one) → <strong>Decrypt backup</strong> → <strong>Import</strong>.</li>
+</ol>
+<p>Locked ColorNote notes are encrypted a second time with a key that isn't in the backup. Unlock them in ColorNote
+before backing up, then import again; notes you already have are skipped.</p>
+
+<h2>Google Keep, Evernote, Apple Notes, Markdown</h2>
+<p>More → <strong>Import from Keep, Evernote, Apple Notes…</strong> shows the export steps for each app. Pick the files,
+a folder or the .zip as downloaded.</p>
+
+<h2>HueNotes Pro</h2>
+<ul>
+  <li>Pro is a one-time purchase, not a subscription. The 14-day trial is free and nothing is charged when it ends.</li>
+  <li>New iPhone or reinstalled? More → HueNotes Pro → <strong>Restore purchases</strong>.</li>
+  <li>Refunds are handled by Apple: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li>
+</ul>
+
+<h2>Backups</h2>
+<p>More → <strong>Backup &amp; restore</strong>. Keep your backup password safe: without it a backup can't be opened,
+and the developer can't recover it.</p>
+
+<p class="muted"><a href="privacy.html">Privacy policy</a></p>
+</body>
+</html>
